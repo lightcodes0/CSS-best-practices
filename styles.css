@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 600px;
+    width: 100%;
+    margin: 0% auto;
+}
+
+.container {
+    border: 4px lightgray solid;
+    padding: 24px 24px 0px 24px;
+}
+
+.title {
+    border: 1px lightgray solid;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.box {
+    border: 4px lightgray solid; 
+    height: 100px;
+    width: 25%;
+    margin-bottom: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b2 {
+    display: flex;
+    justify-content: space-between;
+}
